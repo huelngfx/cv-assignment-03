@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .navbar-brand {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0 20px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px;
+  }
+
+  #certificate img {
+    max-width: 120px;
+  }
+
+  .cert-item:nth-child(1) {
+    border-right: 1px solid #f39c12;
+    border-bottom: 1px solid #f39c12;
+  }
+
+  .cert-item:nth-child(2) {
+    border-bottom: 1px solid #f39c12;
+  }
+}

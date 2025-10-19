@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+  .banner-title {
+    font-size: 25px;
+    top: 25%;
+  }
+
+  .banner p {
+    font-size: 16px;
+    top: 33%;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0 12px;
+    font-size: 16px;
+  }
+
+  .cv-box {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .cv-grid {
+    row-gap: 1.5rem;
+  }
+
+  #certificate .cert .d-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #certificate img {
+    max-width: 90%;
+    margin-bottom: 0.75rem;
+  }
+
+  .cert-item:nth-child(1) {
+    border-right: 1px solid #f39c12;
+    border-bottom: 1px solid #f39c12;
+  }
+
+  .cert-item:nth-child(2) {
+    border-bottom: 1px solid #f39c12;
+  }
+
+  .project-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .project-table tr td:first-child {
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+
+  .project-card {
+    margin-bottom: 1.5rem;
+  }
+  .project-table td {
+    display: block;
+    width: 100%;
+  }
+  .project-table tr td:first-child {
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+}

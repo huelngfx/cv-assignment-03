@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+  .navbar .navbar-brand {
+    display: none !important;
+  }
+
+  .navbar .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    text-align: left !important;
+  }
+
+  .navbar .col-12 {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
+  .navbar .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    padding: 4px 0;
+    white-space: nowrap;
+    text-align: left !important;
+  }
+
+  .navbar .nav-link i {
+    margin-right: 8px;
+  }
+
+  .border-md-end {
+    border: none !important;
+  }
+
+  .cert-item {
+    border-bottom: 1px solid #f39c12;
+    padding-bottom: 15px;
+  }
+
+  .cert-item:last-child {
+    border-bottom: none;
+  }
+}
